@@ -1,0 +1,9 @@
+version: "3"
+services:
+  usermanageapp:
+    build:
+      context: .
+    image: emailImg
+    container_name: emailService
+    ports:
+      - 8090:8090
